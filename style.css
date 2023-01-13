@@ -1,3 +1,26 @@
 h1 {
-    color: red;
+    color: white;
+}
+
+div {
+    width: 100%;
+    max-width: 750px;
+    height: 200px;
+    background-color: black;
+}
+
+.textExample {
+    color: white;
+    background-color: black;
+    width: 100%;
+    max-width: 650px;
+    /* Dont use height: 200px, because it makes it unresponsive */
+    /* Only use height when using: height: 80vh
+    viewport height is just 80% of the height of the page
+    */
+    height: 100vw;
+    border: 1px solid red;
+    font-size: 12px;
+    font-weight: 600; /* 600 = BOLD */
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

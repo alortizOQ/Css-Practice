@@ -57,3 +57,17 @@ div {
 h1 {
     color: black;
 }
+
+/* Box Model */
+
+/* A container that consists of muiltiple different properties */
+
+/* 
+1. Content(text)
+2. Padding
+3. Border
+4. Margin
+
+In that order
+*/
+

@@ -1,0 +1,26 @@
+/* Box Model */
+
+/* A container that consists of muiltiple different properties */
+
+/* 
+1. Content(text)
+2. Padding
+3. Border
+4. Margin
+
+In that order
+*/
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 15px solid red;
+    padding: 15px 15px 15px 15px; /* first is top, second is right, third is down, fourth is left. You can also write it once if its the same */
+    /* Works like a clock padding */
+    margin: 15px;
+    box-sizing: border-box; /* use border box most of the time */
+
+    /* Always use Margin dont use padding */
+    /* Use padding when you want to create space in a box */
+}

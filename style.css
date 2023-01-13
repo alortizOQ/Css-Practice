@@ -1,5 +1,5 @@
 h1 {
-    color: white;
+    color: white !important; /* makes it the most important and applies it instanlty even though they might be id's and classes */
 }
 
 div {
@@ -22,5 +22,38 @@ div {
     border: 1px solid red;
     font-size: 12px;
     font-weight: 600; /* 600 = BOLD */
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Use google fonts to choose great fonts */
+}
+
+/* Speceficity is the prioritization of the styling */
+
+.specificity { /* use . then the name of the class */
+    background-color: black;
+}
+
+#red {
+    color : red;
+}
+
+.blue {
+    color: blue;
+}
+
+#home {
+    border: 2px solid red;
+    height: 300px;
+}
+
+#about {
+    border: 2px solid red;
+    height: 300px;
+}
+
+#info {
+    border: 2px solid red;
+    height: 300px;
+}
+
+h1 {
+    color: black;
 }

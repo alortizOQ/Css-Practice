@@ -1,0 +1,54 @@
+/*
+Position:
+
+(common)
+static(default):
+- Follows normal flow of the page
+
+relative:
+- Follows normal flow of the page
+- Lets you position using top, left, bottom, right
+
+absolute:
+- Does not follow the normal flow of the page
+- Lets you position using top, left, bottom, right
+- Position is based off closest 'position: relative' parent
+
+(uncommon)
+fixed:
+- Sticks elemtns to a permanent location on the page
+- Lets you use top, left, bottom, right
+
+sticky:
+- Sticks elements to a permanent location on the page once it hits a threshold
+*/
+
+div {
+    height: 200px;
+    border: 3px solid black;
+}
+
+.red {
+    background-color: red;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+
+.blue {
+    background-color: blue;
+    position: absolute;
+    width: 100%; /* Need to set width yourself */
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.child {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

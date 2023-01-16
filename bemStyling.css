@@ -1,0 +1,17 @@
+/* BEM */
+/* Block Element Modifier */
+
+/* B [block] is the block component */
+/* E [element] is dependent on the block component */
+/* M [modifier] is used to change the style of the block */
+
+.nav__link {
+    color: black;
+}
+
+.nav__link--active {
+    color: purple;
+    font-weight: bold;
+}
+
+/* LOOK FURTHER INTO BEM CSS */

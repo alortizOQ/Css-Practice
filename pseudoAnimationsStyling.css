@@ -1,0 +1,40 @@
+/* Pseudo Elements */
+
+div::after {
+    content: " Frontend Simplified"
+}
+
+/* Pseudo Classes */
+
+.div2 {
+    transition: background-color 300ms; /* To transition in and out put it in the parent */
+}
+
+.div2:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+
+button {
+    /* transform: translate(10px, 10px); */ /* How to transform */
+    animation: float 2000ms infinite alternate-reverse; /* Name of animation, duration, then how many repeats, lastly if reverse */
+    transition: all 300ms;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Keyframes */
+/* Using transform and translate */
+
+/* Create the animation */
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}

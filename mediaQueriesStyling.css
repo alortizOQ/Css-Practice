@@ -1,0 +1,44 @@
+/* Media Queries are used to make web pages responsive */
+
+/*
+
+Common Breakpoints(max-width)
+
+576px
+- Mobile Phoens
+
+768px
+- Tablets
+
+992px
+- Desktops
+
+1200px+
+- Large Desktops
+
+*/
+
+div {
+    background-color: red;
+    color: white;
+    font-size: 24px;
+}
+
+@media (max-width: 992px) { /* Highest media Query */
+    div {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    div {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 576px) { /* Lowest Media Query */
+    div {
+        font-size: 16px;
+    }
+}
